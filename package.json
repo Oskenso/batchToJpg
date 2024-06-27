@@ -1,0 +1,17 @@
+{
+  "name": "batchToJpg",
+  "version": "1.0.0",
+  "description": "batch convert PNGs to JPGs using mozjpeg.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oskenso Kashi <contact@oskenso.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "minimist": "^1.2.8",
+    "p-queue": "^8.0.1"
+  }
+}
